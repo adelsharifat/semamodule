@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Sema.Module</id>
+		<version>1.0.0</version>
+		<description>SEMA Desktop Module</description>
+		<authors>SEMA Company (www.semaco.ir)</authors>
+		<packageTypes>
+			<packageType name="Template" />
+		</packageTypes>
+	</metadata>
+</package>

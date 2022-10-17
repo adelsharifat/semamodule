@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "SEMA Comapny",
+  "classifications": [ "Common" ], 
+  "identity": "SEMA.ModuleTemplate.CSharp",
+  "name": "SEMA Module Template CSharp",
+  "shortName": "sema-module",
+  "sourceName": "Desktop.Module._Temp_",
+  "sources": [
+    {
+      "exclude": [ "**/[Bb]in/**", "**/[Oo]bj/**", ".template.config/**/*", "**/*.filelist", "**/*.user", "**/*.lock.json" ]     
+    }
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "module": {
+      "type": "parameter",
+      "description": "Set file modulename",
+      "datatype": "text",
+      "defaultValue": "Temp",
+      "replaces": "_Temp_",
+      "fileRename": "_Temp_"      
+    },
+   "schema": {
+      "type": "parameter",
+      "description": "Set file modulename",
+      "datatype": "text",
+      "defaultValue": "Schema",
+      "replaces": "_Schema_"
+    }
+  }
+}
